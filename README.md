@@ -63,8 +63,8 @@ npm run test
 ```
 
 Before running E2E tests, ensure:
-* 1.	Your API is deployed
-* 2.	The API_URL environment variable is set:
+* Your API is deployed
+* The API_URL environment variable is set:
 
 ```bash
 export API_URL=https://<your-api-url>
@@ -123,6 +123,7 @@ Each user profile in DynamoDB follows this structure:
   "lastName": "Doe",
   "dateOfBirth": "1990-01-01"    // ISO 8601 format
 }
+```
 
 ---
 
