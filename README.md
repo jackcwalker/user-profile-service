@@ -195,4 +195,3 @@ If the app grows to require richer queries or complex relationships, a SQL datab
 ---
 
 > Built by Jack Walker
-```
