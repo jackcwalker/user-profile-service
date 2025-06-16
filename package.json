@@ -9,6 +9,8 @@
     "build": "tsc",
     "watch": "tsc -w",
     "test": "vitest",
+    "test:unit": "vitest tests/handlers",
+    "test:e2e": "vitest tests/e2e",
     "cdk": "cdk",
     "lint": "eslint src/**/*.ts",
     "format": "prettier --write ."

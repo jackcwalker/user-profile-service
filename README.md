@@ -52,21 +52,34 @@ cdk deploy
 
 ## 🧪 Running Tests
 
-### Unit Tests
+### All Tests (Unit + E2E)
+
+This command runs both unit and end-to-end tests:
+
+> **Note:** E2E tests do **not** clean up after themselves and will leave test data in the DynamoDB table.
 
 ```bash
 npm run test
 ```
 
-### End-to-End Tests
-
-> **Note:** E2E tests do **not** clean up after themselves and will leave test data in the DynamoDB table.
-
-Ensure the API is deployed and set the `API_URL` environment variable:
+Before running E2E tests, ensure:
+	1.	Your API is deployed
+	2.	The API_URL environment variable is set:
 
 ```bash
 export API_URL=https://<your-api-url>
-npx vitest tests/e2e/profileFlow.e2e.test.ts
+```
+
+### Optional: Run Unit and E2E Tests Separately
+
+To run the E2E tests:
+```bash
+npm run test:e2e
+```
+
+To run the unit tests:
+```bash
+npm run test:unit
 ```
 
 ---
