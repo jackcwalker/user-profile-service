@@ -63,8 +63,8 @@ npm run test
 ```
 
 Before running E2E tests, ensure:
-	1.	Your API is deployed
-	2.	The API_URL environment variable is set:
+* 1.	Your API is deployed
+* 2.	The API_URL environment variable is set:
 
 ```bash
 export API_URL=https://<your-api-url>
