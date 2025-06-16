@@ -168,10 +168,10 @@ If the app grows to require richer queries or complex relationships, a SQL datab
 
 ├── src/
 │ └── handlers/
-│ ├── createProfile/
-│ ├── getProfile/
-│ ├── getAllProfiles/
-│ └── updateProfile/
+│    ├── createProfile/
+│    ├── getProfile/
+│    ├── getAllProfiles/
+│    └── updateProfile/
 ├── tests/
 │ ├── e2e/
 │ ├── handlers/
